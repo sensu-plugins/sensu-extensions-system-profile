@@ -48,7 +48,7 @@ module Sensu
           path_prefix: 'system',
           prefix_at_start: 0
         }
-        if settings[:system_profile].is_a?(Hash)
+        if settings && settings[:system_profile].is_a?(Hash)
           @options.merge!(settings[:system_profile])
         end
         @options
