@@ -46,7 +46,7 @@ module Sensu
           handler: 'graphite',
           add_client_prefix: true,
           path_prefix: 'system',
-          prefix_at_start: 0
+          prefix_at_start: true
         }
         if settings && settings[:system_profile].is_a?(Hash)
           @options.merge!(settings[:system_profile])

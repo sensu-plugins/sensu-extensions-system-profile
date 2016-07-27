@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sensu-extensions-system-profile"
-  spec.version       = "0.0.2"
-  spec.authors       = ["Sean Porter"]
-  spec.email         = ["portertech@gmail.com"]
+  spec.version       = "1.0.0"
+  spec.authors       = ["Sensu-Extensions and contributors"]
+  spec.email         = ["<sensu-users@googlegroups.com>"]
 
   spec.summary       = "Check extension to collect Linux system metrics"
   spec.description   = "Check extension to collect Linux system metrics"
   spec.homepage      = "https://github.com/sensu-extensions/sensu-extensions-system-profile"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  spec.files         = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md CHANGELOG.md)
   spec.require_paths = ["lib"]
 
   spec.add_dependency "sensu-extension"
