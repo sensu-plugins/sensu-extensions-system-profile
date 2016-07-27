@@ -19,8 +19,11 @@ repository.
 - The configuration option `prefix_on_start` now uses a proper boolean
 value type, e.g. `true`, instead of `0` or `1`.
 
-## [0.0.1] - 2016-01-31
+## 0.0.1 - 2016-01-31
 
 ### Added
 
 - Initial release.
+
+[Unreleased]: https://github.com/sensu-extensions/sensu-extensions-system-profile/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/sensu-extensions/sensu-extensions-system-profile/compare/0.0.1...1.0.0
