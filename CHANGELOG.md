@@ -25,5 +25,5 @@ value type, e.g. `true`, instead of `0` or `1`.
 
 - Initial release.
 
-[Unreleased]: https://github.com/sensu-extensions/sensu-extensions-system-profile/compare/1.0.0...HEAD
-[1.0.0]: https://github.com/sensu-extensions/sensu-extensions-system-profile/compare/0.0.1...1.0.0
+[Unreleased]: https://github.com/sensu-extensions/sensu-extensions-system-profile/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/sensu-extensions/sensu-extensions-system-profile/compare/v0.0.1...v1.0.0
