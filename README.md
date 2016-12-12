@@ -41,22 +41,6 @@ sudo service sensu-client restart
 
 ## Configuration
 
-`/etc/sensu/conf.d/system_profile.json`:
-
-``` json
-{
-  "system_profile": {
-    "interval": 10,
-    "handler": "graphite",
-    "add_client_prefix": true,
-    "path_prefix": "system",
-    "prefix_at_start": true
-  }
-}
-```
-
-## Configuration
-
 Edit `/etc/sensu/conf.d/system_profile.json` to change its configuration.
 
 ``` json
