@@ -52,10 +52,10 @@ Edit `/etc/sensu/conf.d/system_profile.json` to change its configuration.
 ```
 
 |attribute|type|default|description|
-|----|----|----|---|
+|----|----|----|----|
 |interval|integer|10|How often metrics will be collected and sent to Sensu|
 |add_client_prefix|boolean|true|If the Sensu client name should prefix the Graphite metric path|
-|path_prefix|string|"system"|The Graphite metric path prefix (either before or after the Sensu client name)|
+|path_prefix|string|"system"|The Graphite metric path prefix|
 |prefix_at_start|boolean|true|If the path_prefix should be before the Sensu client name|
 |handler|string|"graphite"|Handler to use for the Graphite metrics|
 
